@@ -7,7 +7,7 @@ function multiplicationTable() {
         return;
       }
 
-      let tableHTML = "<table> <tr> <th> * </th>";
+      let tableHTML = "<table> <tr> <th> 1 </th>";
       
       for (let i = start; i <= end; i++) {
         tableHTML += "<th>" + i + "</th>";
